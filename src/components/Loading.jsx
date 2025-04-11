@@ -69,7 +69,7 @@ export default function Loading({ onComplete }) {
             {!isExiting ? (
                 <motion.div
                     key="loading"
-                    className="flex py-48 md:py-64 flex-col items-center relative"
+                    className="flex pb-72 mt-24 lg:mt-64 flex-col items-center relative"
                     variants={containerVariants}
                     initial="hidden"
                     animate="show"

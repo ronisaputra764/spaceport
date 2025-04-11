@@ -137,8 +137,8 @@ export default function MobileHeader() {
                     threshold={0.2}
                 >
                     <div className="flex flex-col sm:flex-row  gap-4 mt-6 px-3">
-                        <GradientButton text="Download CV" />
-                        <GradientButton text="Send Me Email" />
+                        <GradientButton text="Download CV" href="CV_Roni_Saputra.pdf" />
+                        <GradientButton text="Send Me Email" href="mailto:ronisaputra764@gmail.com?" />
                     </div>
                 </AnimatedContent>
             </div>
@@ -147,10 +147,10 @@ export default function MobileHeader() {
 }
 
 // Reusable Gradient Button Component
-const GradientButton = ({ text }) => (
+const GradientButton = ({ text, href }) => (
     <div className="relative inline-flex group w-full sm:w-auto">
         <div className="absolute transition-all duration-200 opacity-70 -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-[#FF44EC] rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-1"></div>
-        <a href="#" className="relative w-full text-center inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white transition-all duration-200 bg-[#030014] rounded-xl focus:outline-none">
+        <a href={href} target="_blank" className="relative w-full text-center inline-flex items-center justify-center px-6 py-3 text-sm font-semibold text-white transition-all duration-200 bg-[#030014] rounded-xl focus:outline-none">
             {text}
         </a>
     </div>

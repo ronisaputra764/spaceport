@@ -107,7 +107,7 @@ export default function DesktopHeader() {
                                     <div
                                         className="absolute transitiona-all duration-200 opacity-70 -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-[#FF44EC]  rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-1 ">
                                     </div>
-                                    <a href="#" title="Get quote now"
+                                    <a href="CV_Roni_Saputra.pdf" title="Get quote now" target="_blank"
                                         className="relative text-nowrap inline-flex items-center justify-center px-8 py-4 text-md font-semibold text-white transition-all duration-200 bg-[#030014] font-pj rounded-xl focus:outline-none "
                                         role="button">Download CV
                                     </a>
@@ -119,7 +119,7 @@ export default function DesktopHeader() {
                                     <div
                                         className="absolute transitiona-all duration-200 opacity-70 -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-[#FF44EC]  rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-1 animate-tilt">
                                     </div>
-                                    <a href="#" title="Get quote now"
+                                    <a href="mailto:ronisaputra764@gmail.com?" title="Get quote now"
                                         className="relative text-nowrap  inline-flex items-center justify-center px-8 py-4 text-md font-semibold text-white transition-all duration-200 bg-[#030014] font-pj rounded-xl focus:outline-none "
                                         role="button">Send Me Email
                                     </a>

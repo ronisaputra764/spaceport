@@ -2,7 +2,9 @@ export default function Hero() {
     return (
         <div className="absolute flex flex-col h-full w-full ">
             <video
+                controls={false}
                 autoPlay
+                playsInline
                 muted
                 loop
                 className="rotate-180 absolute top-[-600px] left-0 w-full h-full  "
