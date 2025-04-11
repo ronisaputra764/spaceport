@@ -51,7 +51,7 @@ export default function MobileExperience() {
                         </div>
                     </AnimatedContent>
                     {/* Bullet point */}
-                    <div className="absolute mt-[17px] left-0 top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
+                    <div className="absolute mt-[9px] left-0 top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
                         1
                     </div>
                 </div>
@@ -87,7 +87,7 @@ export default function MobileExperience() {
                             </div>
                         </div>
                     </AnimatedContent>
-                    <div className="absolute mt-[17px] left-0 top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
+                    <div className="absolute mt-[10px] left-0 top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
                         2
                     </div>
                 </div>
@@ -124,7 +124,7 @@ export default function MobileExperience() {
                             </div>
                         </div>
                     </AnimatedContent>
-                    <div className="absolute left-0 mt-[17px] top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
+                    <div className="absolute left-0 mt-[10px] top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
                         3
                     </div>
                 </div>
