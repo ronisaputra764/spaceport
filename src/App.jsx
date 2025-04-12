@@ -26,14 +26,14 @@ function App() {
   return (
     <div >
       <div className="flex flex-col gap-20">
-        <Navbar />
-        <Hero />
+        {/* <Navbar />
+        <Hero /> */}
         <Header />
-        <Body />
+        {/* <Body />
         <Experience />
-        <ContactSection />
+        <ContactSection /> */}
 
-        <div className="" style={{ width: '100%', height: '100%', position: 'fixed' }}>
+        {/* <div className="" style={{ width: '100%', height: '100%', position: 'fixed' }}>
           <Particles
             particleColors={['#ffffff', '#ffffff']}
             particleCount={500}
@@ -44,11 +44,11 @@ function App() {
             alphaParticles={false}
             disableRotation={false}
           />
-        </div>
-
+        </div> */}
+        {/* 
         <div className="relative">
           <img className="w-[300px] md:w-[700px] absolute bottom-0 left-1/2 transform -translate-x-1/2" src="/halfmoon.webp" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
