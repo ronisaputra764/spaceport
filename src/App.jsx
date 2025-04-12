@@ -29,9 +29,9 @@ function App() {
         <Navbar />
         <Hero />
         <Header />
-        <Body />
+        {/* <Body />
         <Experience />
-        <ContactSection />
+        <ContactSection /> */}
 
         {/* <div className="fixed" >
           <Particles
