@@ -33,22 +33,22 @@ function App() {
         <Experience />
         <ContactSection />
 
-        {/* <div className="fixed" >
+        <div className="fixed" >
           <Particles
             particleColors={['#ffffff', '#ffffff']}
             particleCount={500}
-            particleSpread={10} 
+            particleSpread={10}
             speed={0.1}
             particleBaseSize={50}
             moveParticlesOnHover={false}
             alphaParticles={false}
             disableRotation={false}
           />
-        </div> */}
+        </div>
 
-        {/* <div className="relative">
+        <div className="relative">
           <img className="w-[300px] md:w-[700px] absolute bottom-0 left-1/2 transform -translate-x-1/2" src="/halfmoon.webp" alt="" />
-        </div> */}
+        </div>
       </div>
     </div>
   );
