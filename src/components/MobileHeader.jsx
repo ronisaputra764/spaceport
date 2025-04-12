@@ -8,7 +8,7 @@ export default function MobileHeader() {
             initial="hidden"
             animate="visible"
             id="home"
-            className="flex flex-col px-6 mt-20 z-[20] w-full mx-auto"
+            className="flex flex-col px-6 mt-20 z-50 w-full mx-auto"
         >
             {/* Image Section - Now at the top */}
             <AnimatedContent
