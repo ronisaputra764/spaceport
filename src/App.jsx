@@ -26,8 +26,8 @@ function App() {
   return (
     <div >
       <div className="flex flex-col gap-20">
-        <Navbar />
-        <Hero />
+        {/* <Navbar />
+        <Hero /> */}
         <Header />
         {/* <Body />
         <Experience />
