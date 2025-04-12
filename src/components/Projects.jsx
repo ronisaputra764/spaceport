@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import { recentProject } from "../data";
 import { PiArrowSquareOutBold } from "react-icons/pi";
-import { FaArrowRight } from "react-icons/fa";
 import AnimatedContent from "./AnimatedContent";
-import { MdKeyboardArrowDown, MdKeyboardArrowUp } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 export default function Portfolios() {
     const [projects, setProjects] = useState([]);
@@ -31,27 +30,30 @@ export default function Portfolios() {
                         threshold={0}
                     >
                         <div className="bg-white/10 p-3 pb-5 rounded-2xl shadow-2xl hover:shadow-purple-500/70 hover:border border-transparent hover:border-purple-900 hover:-translate-y-2 transition-all duration-200">
-                            <a
-                                href={item.vercel}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                <img
-                                    className="rounded-xl"
-                                    src={`assets/img/${item.image}`}
-                                    alt={item.title}
-                                />
-                            </a>
+                            <img
+                                className="rounded-xl"
+                                src={`assets/img/${item.image}`}
+                                alt={item.title}
+                            />
                             <div className="mx-2">
                                 <p className="text-purple-300 font-semibold py-5 text-xl">{item.title}</p>
                                 <div className="flex justify-between gap-3">
-                                    <a className="flex items-center text-sm hover:cursor-pointer text-cyan-500">
+                                    <a
+                                        href={item.vercel}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center relative text-sm group transition-all duration-300 hover:cursor-pointer text-cyan-500">
                                         <span>Live Demo</span>
                                         <PiArrowSquareOutBold className="ms-1" />
+                                        <span className="absolute bottom-1 left-0 h-0.5 bg-cyan-500 rounded-full w-0 group-hover:w-full transition-all duration-300 ease-out"></span>
                                     </a>
-                                    <a className="flex items-center text-white bg-white/10 hover:cursor-pointer text-sm py-1 px-2 rounded-md">
-                                        <span>Details</span>
-                                        <FaArrowRight className="ms-1" />
+                                    <a
+                                        href={item.github}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="flex items-center text-white bg-white/10 hover:bg-white/20 hover:cursor-pointer text-sm py-1 px-2 rounded-md">
+                                        <span>Github</span>
+                                        <FaGithub className="ms-1" />
                                     </a>
                                 </div>
                             </div>

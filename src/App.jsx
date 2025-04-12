@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import Body from "./components/Body";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -7,8 +6,10 @@ import Navbar from "./components/Navbar";
 import Particles from "./components/Particles";
 import ContactSection from "./components/ContactSection";
 import Experience from "./components/Experience";
+import { useMediaQuery } from "react-responsive";
 
 function App() {
+  const isDesktop = useMediaQuery({ minWidth: 1124 });
   // const [isLoading, setIsLoading] = useState(true);
 
   // useEffect(() => {
@@ -27,7 +28,7 @@ function App() {
     <div >
       <div className="flex flex-col gap-20">
         <Navbar />
-        {/* <Hero /> */}
+        {isDesktop && <Hero />}
         <Header />
         <Body />
         <Experience />

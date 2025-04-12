@@ -132,7 +132,7 @@ export default function DesktopExperience() {
                 </div>
 
                 {/* Kolom kanan untuk teks ganjil (2, 4, dst) */}
-                <div className="flex flex-col items-start justify-around h-[1000px] py-20 ">
+                <div className="flex flex-col items-start justify-between h-[1000px] py-20 ">
 
                     <AnimatedContent
                         distance={150}
