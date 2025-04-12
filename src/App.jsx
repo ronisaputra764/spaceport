@@ -30,8 +30,8 @@ function App() {
         {/* <Hero /> */}
         <Header />
         <Body />
-        {/* <Experience />
-        <ContactSection /> */}
+        <Experience />
+        <ContactSection />
 
         {/* <div className="fixed" >
           <Particles
