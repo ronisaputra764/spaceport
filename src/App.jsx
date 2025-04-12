@@ -33,7 +33,7 @@ function App() {
         <Experience />
         <ContactSection /> */}
 
-        <div className="" style={{ width: '100%', height: '100%', position: 'fixed' }}>
+        <div className="fixed" >
           <Particles
             particleColors={['#ffffff', '#ffffff']}
             particleCount={500}
