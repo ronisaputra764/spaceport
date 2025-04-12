@@ -29,15 +29,15 @@ function App() {
         <Navbar />
         {/* <Hero /> */}
         <Header />
-        {/* <Body />
-        <Experience />
+        <Body />
+        {/* <Experience />
         <ContactSection /> */}
 
         {/* <div className="fixed" >
           <Particles
             particleColors={['#ffffff', '#ffffff']}
             particleCount={500}
-            particleSpread={10}
+            particleSpread={10} 
             speed={0.1}
             particleBaseSize={50}
             moveParticlesOnHover={false}
