@@ -46,9 +46,9 @@ function App() {
           />
         </div> */}
 
-        <div className="relative">
+        {/* <div className="relative">
           <img className="w-[300px] md:w-[700px] absolute bottom-0 left-1/2 transform -translate-x-1/2" src="/halfmoon.webp" alt="" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
