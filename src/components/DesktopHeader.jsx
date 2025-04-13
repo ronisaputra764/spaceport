@@ -18,7 +18,7 @@ export default function DesktopHeader() {
                         distance={150}
                         direction="vertical"
                         reverse={false}
-                        config={{ tension: 80, friction: 50 }}
+                        config={{ tension: 80, friction: 20 }}
                         initialOpacity={0}
                         animateOpacity
                         scale={1}
@@ -37,7 +37,7 @@ export default function DesktopHeader() {
                         direction="vertical"
                         delay={200}
                         reverse={false}
-                        config={{ tension: 80, friction: 50 }}
+                        config={{ tension: 80, friction: 20 }}
                         initialOpacity={0}
                         animateOpacity
                         scale={1}
@@ -51,7 +51,7 @@ export default function DesktopHeader() {
                         direction="vertical"
                         delay={400}
                         reverse={false}
-                        config={{ tension: 80, friction: 50 }}
+                        config={{ tension: 80, friction: 20 }}
                         initialOpacity={0}
                         animateOpacity
                         scale={1}
@@ -68,7 +68,7 @@ export default function DesktopHeader() {
                         direction="vertical"
                         delay={600}
                         reverse={false}
-                        config={{ tension: 80, friction: 50 }}
+                        config={{ tension: 80, friction: 20 }}
                         initialOpacity={0}
                         animateOpacity
                         scale={1}
@@ -95,7 +95,7 @@ export default function DesktopHeader() {
                         direction="vertical"
                         delay={800}
                         reverse={false}
-                        config={{ tension: 80, friction: 50 }}
+                        config={{ tension: 80, friction: 20 }}
                         initialOpacity={0}
                         animateOpacity
                         scale={1}
@@ -133,7 +133,7 @@ export default function DesktopHeader() {
                     distance={150}
                     direction="horizontal"
                     reverse={false}
-                    config={{ tension: 80, friction: 50 }}
+                    config={{ tension: 80, friction: 20 }}
                     initialOpacity={0}
                     animateOpacity
                     scale={1}
