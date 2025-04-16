@@ -159,7 +159,7 @@ export default function DesktopHeader() {
                             />
                         </div>
                         <div className="absolute mt-[75px] me-[75px] rounded-full mx-auto w-[350px] h-[350px] overflow-hidden">
-                            <img src="/assets/img/IMG_3552.jpg" alt="" />
+                            <img src="/assets/img/IMG_3552.jpg" alt="" loading="lazy" />
                         </div>
                     </motion.div>
                 </AnimatedContent>

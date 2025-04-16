@@ -1,29 +1,15 @@
 import Body from "./components/Body";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import Loading from "./components/Loading";
 import Navbar from "./components/Navbar";
 import Particles from "./components/Particles";
 import ContactSection from "./components/ContactSection";
 import Experience from "./components/Experience";
 import { useMediaQuery } from "react-responsive";
-import { useState } from "react";
 
 function App() {
   const isDesktop = useMediaQuery({ minWidth: 1124 });
-  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 7000);
-
-  //   return () => clearTimeout(timer);
-  // }, []);
-
-  // if (isLoading) {
-  //   return <Loading />;
-  // }
 
   return (
     <div >
