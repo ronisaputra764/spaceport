@@ -64,9 +64,9 @@ export default function MobileHeader() {
                     scale={1}
                     threshold={0}
                 >
-                    <div className="mx-3 border rounded-full py-[8px] px-[12px] opacity-[0.9] inline-block border-[#7042F88B] shadow-[inset_-5px_-5px_10px_0_rgba(59,130,246,0.3)]">
+                    <div className="mx-3 border rounded-full py-[6px] px-[10px] opacity-[0.9] inline-block border-[#7042F88B] shadow-[inset_-5px_-5px_10px_0_rgba(59,130,246,0.3)]">
                         <div className="flex font-semibold items-center justify-center bg-clip-text bg-gradient-to-r text-transparent from-purple-500 to-cyan-200">
-                            <img className="mr-[10px] h-5 w-5" src="/assets/sparkles.svg" alt="" />
+                            <img className="mr-[10px] h-4 w-4" src="/assets/sparkles.svg" alt="" />
                             <h1 className="text-xs md:text-[13px]">Fullstack Web Developer</h1>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default function MobileHeader() {
                     scale={1}
                     threshold={0.2}
                 >
-                    <h1 className="bg-clip-text text-5xl poppins-semibold px-3 bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">
+                    <h1 className="bg-clip-text text-4xl poppins-semibold px-3 bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">
                         Roni Saputra
                     </h1>
                 </AnimatedContent>

@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { recentProject } from "../data";
 import { PiArrowSquareOutBold } from "react-icons/pi";
 import AnimatedContent from "./AnimatedContent";
-import { FaGithub } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Portfolios() {
     const [projects, setProjects] = useState([]);
@@ -36,7 +37,8 @@ export default function Portfolios() {
                                 alt={item.title}
                             />
                             <div className="mx-2">
-                                <p className="text-purple-300 font-semibold py-5 text-xl">{item.title}</p>
+                                <h2 className="text-purple-300 font-semibold py-4 text-xl">{item.title}</h2>
+                                <p className="text-white/70 text-sm line-clamp-3 mb-4">{item.description}</p>
                                 <div className="flex justify-between gap-3">
                                     <a
                                         href={item.vercel}
@@ -47,14 +49,12 @@ export default function Portfolios() {
                                         <PiArrowSquareOutBold className="ms-1" />
                                         <span className="absolute bottom-1 left-0 h-0.5 bg-cyan-500 rounded-full w-0 group-hover:w-full transition-all duration-300 ease-out"></span>
                                     </a>
-                                    <a
-                                        href={item.github}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
+                                    <Link
+                                        to={`/${item.id}`}
                                         className="flex items-center text-white bg-white/10 hover:bg-white/20 hover:cursor-pointer text-sm py-1 px-2 rounded-md">
-                                        <span>Github</span>
-                                        <FaGithub className="ms-1" />
-                                    </a>
+                                        <span>Details</span>
+                                        <FaArrowRight className="ms-1" />
+                                    </Link>
                                 </div>
                             </div>
                         </div>

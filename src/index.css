@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 html {
-  background-color: #030014;
+  /* background-color: #030014; */
   transition: background-color 0.5s ease;
 }
 
@@ -24,9 +24,20 @@ html {
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #7032a9;
+  background-color: #c231d9;
   /* purple-500 */
   border-radius: 9999px;
+}
+
+.custom-bullets-purple {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+.custom-bullets-purple li::marker {
+  color: #9C27B0;
+  /* Warna biru Tailwind */
+  font-size: 1.2em;
 }
 
 .custom-bullets {

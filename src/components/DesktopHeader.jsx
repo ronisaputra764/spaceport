@@ -43,7 +43,7 @@ export default function DesktopHeader() {
                         scale={1}
                         threshold={0.2}
                     >
-                        <h1 className="bg-clip-text inline w-full ms-4 text-7xl poppins-semibold bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">Roni Saputra</h1>
+                        <h1 className="bg-clip-text inline w-full ms-4 text-6xl poppins-extrabold bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">Roni Saputra</h1>
                     </AnimatedContent>
 
                     <AnimatedContent
