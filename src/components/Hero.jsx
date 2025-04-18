@@ -8,7 +8,7 @@ export default function Hero() {
                 muted
                 loop
                 controls={false}
-                className="rotate-180 absolute top-[-530px] left-0 w-full h-full object-cover will-change-transform"
+                className="rotate-180 absolute top-[-600px] left-0 w-full h-full object-cover will-change-transform"
             >
                 <source src="/public_blackhole.webm" type="video/webm" />
                 Your browser does not support the video tag.

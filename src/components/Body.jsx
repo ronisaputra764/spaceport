@@ -35,7 +35,7 @@ export default function Body() {
                     scale={0.5}
                     threshold={0}
                 >
-                    <h1 className="bg-clip-text inline mx-3 w-full text-3xl md:text-4xl poppins-semibold bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">Portfolio Showcase</h1>
+                    <h1 className="bg-clip-text inline mx-3 w-full text-3xl md:text-5xl poppins-semibold bg-gradient-to-r text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">Portfolio Showcase</h1>
                 </AnimatedContent>
 
                 <AnimatedContent
