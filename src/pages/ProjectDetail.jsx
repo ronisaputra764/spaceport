@@ -16,6 +16,8 @@ export default function ProjectDetail() {
     const handleBack = () => {
         if (window.history.length > 2) {
             navigate(-1);
+        } else {
+            navigate("/projects");
         }
     };
 
