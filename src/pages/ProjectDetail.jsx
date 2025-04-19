@@ -36,10 +36,10 @@ export default function ProjectDetail() {
                                 <IoMdArrowBack className="me-2 group-hover:-translate-x-1 transition-all duration-200"
                                 />Back
                             </button>
-                            <p className="text-gray-400 text-sm md:text-lg flex items-center">Projects <IoIosArrowForward className="text-xs mx-1" /> <span className="text-white">{project.title}</span></p>
+                            <p className="text-gray-400 text-sm md:text-lg flex items-center">Projects <IoIosArrowForward className="text-xs mx-1" /> <span className="text-white">{project?.title}</span></p>
                         </div>
-                        <h1 className="bg-clip-text inline w-full text-4xl md:text-6xl poppins-extrabold bg-gradient-to-b text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">{project.title}</h1>
-                        <p className="mt-7 text-gray-300 text-sm md:text-[17px]">{project.description}</p>
+                        <h1 className="bg-clip-text inline w-full text-4xl md:text-6xl poppins-extrabold bg-gradient-to-b text-transparent from-purple-500 to-cyan-500 [text-shadow:0_0_500px_#7042F88B,0_0_100px_#a855f7]">{project?.title}</h1>
+                        <p className="mt-7 text-gray-300 text-sm md:text-[17px]">{project?.description}</p>
                         <div className="flex bg-white/5 mt-5 gap-3 p-3 rounded-xl">
                             <div className="bg-white/5 w-full border border-indigo-500/30 hover:border-indigo-500/60 py-2 px-2 rounded-lg flex items-center transition transform duration-300 hover:scale-105">
                                 <div className="p-2 bg-indigo-500/30 rounded-full me-2">
@@ -62,7 +62,7 @@ export default function ProjectDetail() {
                         </div>
                         <div id="buttons" className="mt-5 flex">
                             <a
-                                href={project.vercel}
+                                href={project?.vercel}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group relative overflow-hidden flex items-center bg-gradient-to-t from-indigo-500/10 to-purple-500/10 rounded-lg border border-indigo-500/30 text-blue-300 text-sm py-3 px-4 me-2 hover:cursor-pointer">
@@ -74,7 +74,7 @@ export default function ProjectDetail() {
                             </a>
 
                             <a
-                                href={project.github}
+                                href={project?.github}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="group relative overflow-hidden flex items-center bg-gradient-to-t from-purple-500/10 to-fuchsia-500/10 rounded-lg border border-purple-500/30 text-purple-300 text-sm py-3 px-4 hover:cursor-pointer">
