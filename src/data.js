@@ -3,6 +3,23 @@ import TechStack from "./components/TechStack";
 export const recentProject = [
     {
         id: "1",
+        title: "Shayna LMS",
+        image: "shaynalms.png",
+        github: "https://github.com/ronisaputra764/fullstack-shaynalms",
+        vercel: "https://shaynalms.vercel.app",
+        techstack: [
+            "React", "MongoDB", "Express.js", "Node.js", "HTML", "TailwindCSS", "JavaScript"
+        ],
+        features: [
+            "User Roles: Role-based access for managers and students.",
+            "Course Management: Managers can create, edit, and delete courses and materials.",
+            "Enrollment System: Students can purchase and enroll in courses.",
+            "Secure Auth: Login system with validation and session management.",
+        ],
+        description: "Shayna LMS is a Learning Management System built with the MERN stack. It supports two types of users: managers and students. Managers can create and manage courses, while students can browse, purchase, and learn from the courses. Designed for efficiency, scalability, and ease of use, this platform delivers a seamless online learning experience."
+    },
+    {
+        id: "2",
         title: "Sepatu Store",
         image: "sepatustore.png",
         github: "https://github.com/ronisaputra764/sepatu-store",
@@ -19,7 +36,7 @@ export const recentProject = [
         description: "This is a eCommerce platform developed for selling premium sneakers, including popular brands such as Nike, Adidas, Puma, and more. The platform is designed to offer a smooth and engaging shopping experience, both for customers and admins."
     },
     {
-        id: "2",
+        id: "3",
         title: "Find Boarding House",
         image: "ngekos.png",
         github: "https://github.com/ronisaputra764/ngekos",
@@ -36,7 +53,7 @@ export const recentProject = [
         description: "This is a fully-featured online platform for booking and renting accommodations, including boarding houses (kost), hotels, and villas. The website is built to simplify the property search, booking process, and management system for both renters and property owners."
     },
     {
-        id: "3",
+        id: "4",
         title: "Tech Blog",
         image: "clean-blog.png",
         github: "https://github.com/ronisaputra764/vue-blog",
@@ -53,7 +70,7 @@ export const recentProject = [
         description: "This is a modern and responsive tech blog website focused on sharing articles and tutorials about programming and the latest in technology. The platform is designed for tech enthusiasts, beginners, and developers looking to learn topics such as basic Python, Git, JavaScript, and modern frontend frameworks like Vue.js."
     },
     {
-        id: "4",
+        id: "5",
         title: "Moonton",
         image: "moonton.png",
         github: "https://github.com/ronisaputra764/mononton",
@@ -70,7 +87,7 @@ export const recentProject = [
         description: "This is a full-featured movie streaming platform inspired by Netflix, built to offer users a seamless experience for watching, browsing, and subscribing to a vast collection of movies. It supports a secure subscription-based model with user authentication, a clean UI, and interactive streaming features."
     },
     {
-        id: "5",
+        id: "6",
         title: "KitaBantu",
         image: "kitabantu.png",
         github: "https://github.com/ronisaputra764/kitabantu",
@@ -87,7 +104,7 @@ export const recentProject = [
         description: "This is a fully functional crowdfunding mobile website designed to help individuals donate to causes such as helping the poor and supporting victims of natural disasters. The platform allows users to browse donation campaigns, contribute securely, and monitor campaign progress — all through a modern, responsive interface."
     },
     {
-        id: "6",
+        id: "7",
         title: "Garuda Ticket Flight",
         image: "garuda.png",
         github: "https://github.com/ronisaputra764/garuda",
@@ -105,7 +122,7 @@ export const recentProject = [
         description: "This project is a fully functional flight ticket booking platform that allows users to search, view, and purchase flight tickets with real-time information on departures, destinations, and schedules. The system simplifies the booking experience while providing key flight data to help users make informed travel decisions."
     },
     {
-        id: "7",
+        id: "8",
         title: "Pop Movie",
         image: "popmovie.png",
         github: "https://github.com/ronisaputra764/pop-movie-react",
