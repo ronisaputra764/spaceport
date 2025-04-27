@@ -3,6 +3,23 @@ import TechStack from "./components/TechStack";
 export const recentProject = [
     {
         id: "1",
+        title: "Planto",
+        image: "planto.png",
+        github: "https://github.com/ronisaputra764/planto",
+        vercel: "https://planto-swart.vercel.app/",
+        techstack: [
+            "React", "JavaScript", "TailwindCSS", "HTML"
+        ],
+        features: [
+            "Product Catalog: Display a wide range of ornamental plants with images and details.",
+            "Shopping Cart: Users can add plants to their cart and manage their selections.",
+            "Responsive Design: Optimized for desktop, tablet, and mobile devices.",
+            "Modern UI: Clean and attractive interface built with TailwindCSS."
+        ],
+        description: "Planto is an e-commerce website specializing in ornamental plants. Built with React, JavaScript, and TailwindCSS, it offers a user-friendly experience for browsing, selecting, and purchasing plants. Designed with a focus on aesthetics and responsiveness, Planto ensures that plant enthusiasts can easily find and buy their favorite plants online."
+    },
+    {
+        id: "2",
         title: "Shayna LMS",
         image: "shaynalms.png",
         github: "https://github.com/ronisaputra764/fullstack-shaynalms",
@@ -19,7 +36,7 @@ export const recentProject = [
         description: "Shayna LMS is a Learning Management System built with the MERN stack. It supports two types of users: managers and students. Managers can create and manage courses, while students can browse, purchase, and learn from the courses. Designed for efficiency, scalability, and ease of use, this platform delivers a seamless online learning experience."
     },
     {
-        id: "2",
+        id: "3",
         title: "Sepatu Store",
         image: "sepatustore.png",
         github: "https://github.com/ronisaputra764/sepatu-store",
@@ -36,7 +53,7 @@ export const recentProject = [
         description: "This is a eCommerce platform developed for selling premium sneakers, including popular brands such as Nike, Adidas, Puma, and more. The platform is designed to offer a smooth and engaging shopping experience, both for customers and admins."
     },
     {
-        id: "3",
+        id: "4",
         title: "Find Boarding House",
         image: "ngekos.png",
         github: "https://github.com/ronisaputra764/ngekos",
@@ -53,7 +70,7 @@ export const recentProject = [
         description: "This is a fully-featured online platform for booking and renting accommodations, including boarding houses (kost), hotels, and villas. The website is built to simplify the property search, booking process, and management system for both renters and property owners."
     },
     {
-        id: "4",
+        id: "5",
         title: "Tech Blog",
         image: "clean-blog.png",
         github: "https://github.com/ronisaputra764/vue-blog",
@@ -70,7 +87,7 @@ export const recentProject = [
         description: "This is a modern and responsive tech blog website focused on sharing articles and tutorials about programming and the latest in technology. The platform is designed for tech enthusiasts, beginners, and developers looking to learn topics such as basic Python, Git, JavaScript, and modern frontend frameworks like Vue.js."
     },
     {
-        id: "5",
+        id: "6",
         title: "Moonton",
         image: "moonton.png",
         github: "https://github.com/ronisaputra764/mononton",
@@ -87,7 +104,7 @@ export const recentProject = [
         description: "This is a full-featured movie streaming platform inspired by Netflix, built to offer users a seamless experience for watching, browsing, and subscribing to a vast collection of movies. It supports a secure subscription-based model with user authentication, a clean UI, and interactive streaming features."
     },
     {
-        id: "6",
+        id: "7",
         title: "KitaBantu",
         image: "kitabantu.png",
         github: "https://github.com/ronisaputra764/kitabantu",
@@ -104,7 +121,7 @@ export const recentProject = [
         description: "This is a fully functional crowdfunding mobile website designed to help individuals donate to causes such as helping the poor and supporting victims of natural disasters. The platform allows users to browse donation campaigns, contribute securely, and monitor campaign progress — all through a modern, responsive interface."
     },
     {
-        id: "7",
+        id: "8",
         title: "Garuda Ticket Flight",
         image: "garuda.png",
         github: "https://github.com/ronisaputra764/garuda",
@@ -122,7 +139,7 @@ export const recentProject = [
         description: "This project is a fully functional flight ticket booking platform that allows users to search, view, and purchase flight tickets with real-time information on departures, destinations, and schedules. The system simplifies the booking experience while providing key flight data to help users make informed travel decisions."
     },
     {
-        id: "8",
+        id: "9",
         title: "Pop Movie",
         image: "popmovie.png",
         github: "https://github.com/ronisaputra764/pop-movie-react",

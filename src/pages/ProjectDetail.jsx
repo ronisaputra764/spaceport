@@ -96,8 +96,8 @@ export default function ProjectDetail() {
                     </div>
                     <div className="mt-20 lg:max-w-[500px]">
                         <div className="flex flex-col items-start">
-                            <div className="rounded-2xl overflow-hidden mb-5 hover:border-white/30 transition-all transform duration-300">
-                                <img className="transition-all transform duration-300 hover:scale-105" src={`assets/img/${project?.image}`} alt="" />
+                            <div className="rounded-2xl overflow-hidden mb-5 hover:border-white/30 hover:scale-105 transition-all transform duration-300">
+                                <img className="transition-all transform duration-300 " src={`assets/img/${project?.image}`} alt="" />
                             </div>
                             <ul className="group w-full bg-white/5 p-10 rounded-2xl border list-disc custom-bullets-purple border-white/15 hover:border-white/30 transition-all transform duration-300">
                                 <span className="flex items-center poppins-semibold text-gray-200 text-xl mb-8"><FaRegStar className="text-yellow-500 me-2 transition-all transform duration-300 group-hover:rotate-25" />Key Features</span>
