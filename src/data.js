@@ -4,7 +4,7 @@ export const recentProject = [
     {
         id: "1",
         title: "Planto",
-        image: "planto.png",
+        image: "planto2.png",
         github: "https://github.com/ronisaputra764/planto",
         vercel: "https://planto-swart.vercel.app/",
         techstack: [
@@ -38,7 +38,7 @@ export const recentProject = [
     {
         id: "3",
         title: "Sepatu Store",
-        image: "sepatustore.png",
+        image: "sepatustore2.png",
         github: "https://github.com/ronisaputra764/sepatu-store",
         vercel: "https://sepatu-store-react.vercel.app/",
         techstack: [
@@ -55,7 +55,7 @@ export const recentProject = [
     {
         id: "4",
         title: "Find Boarding House",
-        image: "ngekos.png",
+        image: "ngekos2.png",
         github: "https://github.com/ronisaputra764/ngekos",
         vercel: "https://ngekos-seven.vercel.app/",
         techstack: [
@@ -89,7 +89,7 @@ export const recentProject = [
     {
         id: "6",
         title: "Moonton",
-        image: "moonton.png",
+        image: "moonton2.png",
         github: "https://github.com/ronisaputra764/mononton",
         vercel: "https://moonton-eight.vercel.app/",
         techstack: [
@@ -106,7 +106,7 @@ export const recentProject = [
     {
         id: "7",
         title: "KitaBantu",
-        image: "kitabantu.png",
+        image: "kitabantu2.png",
         github: "https://github.com/ronisaputra764/kitabantu",
         vercel: "https://kitabantu.vercel.app/",
         techstack: [
@@ -141,7 +141,7 @@ export const recentProject = [
     {
         id: "9",
         title: "Pop Movie",
-        image: "popmovie.png",
+        image: "popmovie2.png",
         github: "https://github.com/ronisaputra764/pop-movie-react",
         vercel: "https://pop-movie-react.vercel.app/",
         techstack: [
