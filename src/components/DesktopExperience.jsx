@@ -63,7 +63,7 @@ export default function DesktopExperience() {
                                     <div>
                                         <p className="text-white font-semibold">Fullstack Web Developer</p>
                                         <p className="text-gray-500 text-sm">PT. Intikom Berlian Mustika</p>
-                                        <p className="text-gray-500 text-sm">21 October 2024 - 20 January 2025</p>
+                                        <p className="text-gray-500 text-sm">21 July 2024 - 20 January 2025</p>
                                     </div>
                                 </div>
                                 <div>
@@ -150,7 +150,7 @@ export default function DesktopExperience() {
                                     <div>
                                         <p className="text-white font-semibold">Frontend Web Developer</p>
                                         <p className="text-gray-500 text-sm">PT Wiraswasta Gemilang Indonesia</p>
-                                        <p className="text-gray-500 text-sm">14 August 2023 - 26 July 2024   </p>
+                                        <p className="text-gray-500 text-sm">14 August 2023 - 26 Juny 2024   </p>
                                     </div>
                                 </div>
                                 <div>
