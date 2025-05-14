@@ -27,7 +27,7 @@ export default function DesktopHeader() {
                         <div className="mb-4 ms-4 border rounded-full py-[8px] px-[12px] opacity-[0.9] inline-block border-[#7042F88B] shadow-[inset_-5px_-5px_10px_0_rgba(59,130,246,0.3)]">
                             <div className="flex fony-semibold items-center bg-clip-text bg-gradient-to-r text-transparent from-purple-500 to-cyan-200 ">
                                 <img className="mr-[10px] h-5 w-5" src="/assets/sparkles.svg" alt="" />
-                                <h1 className="text-[13px] text-nowrap ">Frontend Web Developer</h1>
+                                <h1 className="text-[13px] text-nowrap ">Fullstack Web Developer</h1>
                             </div>
                         </div>
                     </AnimatedContent>
