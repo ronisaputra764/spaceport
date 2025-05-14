@@ -33,15 +33,17 @@ export default function MobileHeader() {
                     }}
                     className="flex justify-center transition-all scale-95 hover:scale-100"
                 >
-                    <div className="relative w-[300px] h-[300px] z-20">
-                        <Orb
-                            hoverIntensity={0.5}
-                            rotateOnHover={true}
-                            hue={0}
-                            forceHoverState={false}
-                            size={300} // Adjust orb size for mobile
-                        />
-                        <div className="absolute top-[50px] left-[50px] rounded-full w-[200px] h-[200px] overflow-hidden border-4 border-purple-500/30">
+                    <div className="relative">
+                        <div className="z-20 w-[300px] h-[300px]">
+                            <Orb
+                                hoverIntensity={0.5}
+                                rotateOnHover={true}
+                                hue={0}
+                                forceHoverState={false}
+                                size={300}
+                            />
+                        </div>
+                        <div className="absolute z-[-10] top-[46px] left-[46px] rounded-full w-[210px] h-[210px] overflow-hidden">
                             <img
                                 src="/assets/img/IMG_3552.jpg"
                                 alt="Profile"
