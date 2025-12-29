@@ -16,6 +16,8 @@ export default function Body() {
                 return <Certificates />;
             case 2:
                 return <TechStack />;
+            case 3:
+                return <Projects filterAI={true} />;
             default:
                 return <Projects />;
         }

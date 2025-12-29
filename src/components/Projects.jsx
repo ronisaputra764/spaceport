@@ -5,13 +5,27 @@ import AnimatedContent from "./AnimatedContent";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-export default function Portfolios() {
+export default function Portfolios({ filterAI = false }) {
     const [projects, setProjects] = useState([]);
     const [showAll, setShowAll] = useState(false);
 
     useEffect(() => {
-        setProjects(recentProject);
-    }, []);
+        if (filterAI) {
+            // Filter AI development projects (IDs 10-18)
+            const aiProjects = recentProject.filter(project => {
+                const projectId = parseInt(project.id);
+                return projectId >= 10 && projectId <= 18;
+            });
+            setProjects(aiProjects);
+        } else {
+            // Filter out AI development projects for regular projects tab
+            const regularProjects = recentProject.filter(project => {
+                const projectId = parseInt(project.id);
+                return projectId < 10 || projectId > 18;
+            });
+            setProjects(regularProjects);
+        }
+    }, [filterAI]);
 
     const displayedProjects = showAll ? projects : projects.slice(0, 6);
 

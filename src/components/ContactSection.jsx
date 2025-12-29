@@ -2,18 +2,12 @@ import AnimatedContent from "./AnimatedContent";
 import Comment from "./Comment";
 import GetInTouch from "./GetInTouch";
 import GlassIcons from './GlassIcons';
-import { FaInstagram, FaGithub, FaLinkedin, FaFacebook } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import { FaThreads } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { SiUpwork } from "react-icons/si";
 
 const items = [
-    { icon: <FaFacebook />, color: 'custom', label: 'Facebook', url: 'https://www.facebook.com/profile.php?id=100005200095348' },
-    { icon: <FaInstagram />, color: 'custom', label: 'Instagram', url: 'https://www.instagram.com/ronysptra764/' },
     { icon: <FaGithub />, color: 'custom', label: 'Github', url: 'https://github.com/ronisaputra764' },
-    { icon: <FaLinkedin />, color: 'custom', label: 'Linkedin', url: 'https://www.linkedin.com/in/roni-saputra-8ab9762aa/' },
-    { icon: <MdOutlineEmail />, color: 'custom', label: 'Email', url: 'mailto:ronisaputra764@gmail.com?' },
-    { icon: <FaThreads />, color: 'custom', label: 'Threads', url: 'https://www.threads.net/@ronysptra764' },
-
+    { icon: <SiUpwork />, color: 'custom', label: 'Upwork', url: 'https://www.upwork.com/freelancers/~019b9261b427e7e202' },
 ];
 
 export default function ContactSection() {

@@ -5,8 +5,8 @@ export default function DesktopExperience() {
 
         <div className="flex justify-center my-5">
             <div className="grid grid-cols-[1fr_auto_1fr]">
-                {/* Kolom kiri untuk teks genap (1, 3, dst) */}
-                <div className="flex flex-col items-end justify-between h-[1000px]">
+                {/* Kolom kiri untuk teks genap (1, 3, 5, dst) */}
+                <div className="flex flex-col items-end justify-between h-[1200px]">
 
                     <AnimatedContent
                         distance={150}
@@ -79,10 +79,42 @@ export default function DesktopExperience() {
                         </div>
                     </AnimatedContent>
 
+                    <AnimatedContent
+                        distance={150}
+                        direction="vertical"
+                        reverse={false}
+                        config={{ tension: 80, friction: 20 }}
+                        initialOpacity={0.2}
+                        animateOpacity
+                        threshold={0.5}
+                    >
+                        <div className="p-[1px] mt-60 rounded-2xl bg-gradient-to-r from-purple-500  to-cyan-500">
+                            <div className=" p-5 rounded-2xl  bg-[#2d2b45]">
+                                <div className="flex gap-3 mb-3 items-center">
+                                    <div className="rounded-full w-10 h-10 bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center text-white font-bold text-lg">AI</div>
+                                    <div>
+                                        <p className="text-white font-semibold">AI-Native Developer</p>
+                                        <p className="text-gray-500 text-sm">Lovable.dev, Cursor, Replit</p>
+                                        <p className="text-gray-500 text-sm">Jan 2024 - Present</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <ul className="text-white/60 text-sm list-disc custom-bullets mb-2 w-[350px]">
+                                        <li className='mb-1'>Developed web applications using AI-powered development tools including Cursor, Augment Code, Claude Code, Lovable.dev, and Replit.</li>
+                                        <li className='mb-1'>Leveraged AI assistance for rapid prototyping, code generation, and application development.</li>
+                                        <li className='mb-1'>Built multiple full-stack applications on Lovable.dev platform, showcasing proficiency in AI-assisted development workflows.</li>
+                                        <li className='mb-1'>Collaborated with AI coding assistants to optimize development speed and code quality while maintaining best practices.</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </AnimatedContent>
+
                 </div>
 
                 {/* Garis timeline di tengah */}
-                <div className="relative border-[0.2px] bg-gradient-to-b from-purple-500 to-cyan-500 p-[1px] bg-clip-border to-cyan-500w-0 h-[1500px] mx-20">
+                <div className="relative border-[0.2px] bg-gradient-to-b from-purple-500 to-cyan-500 p-[1px] bg-clip-border to-cyan-500w-0 h-[1800px] mx-20">
                     <div className="absolute left-1/2 -translate-x-1/2 h-full flex flex-col items-center justify-around py-20">
                         <AnimatedContent
                             distance={150}
@@ -128,11 +160,22 @@ export default function DesktopExperience() {
                         >
                             <div className="bg-gradient-to-b from-purple-500 to-cyan-500 w-10 h-10 rounded-full font-semibold flex items-center justify-center text-xl">4</div>
                         </AnimatedContent>
+                        <AnimatedContent
+                            distance={150}
+                            direction="vertical"
+                            reverse={false}
+                            config={{ tension: 80, friction: 20 }}
+                            initialOpacity={0.2}
+                            animateOpacity
+                            threshold={0.5}
+                        >
+                            <div className="bg-gradient-to-b from-purple-500 to-cyan-500 w-10 h-10 rounded-full font-semibold flex items-center justify-center text-xl">5</div>
+                        </AnimatedContent>
                     </div>
                 </div>
 
                 {/* Kolom kanan untuk teks ganjil (2, 4, dst) */}
-                <div className="flex flex-col items-start justify-between h-[1000px] py-20 ">
+                <div className="flex flex-col items-start justify-between h-[1200px] py-20 ">
 
                     <AnimatedContent
                         distance={150}

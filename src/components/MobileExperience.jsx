@@ -129,7 +129,7 @@ export default function MobileExperience() {
                 </div>
 
                 {/* Item 4 */}
-                <div className="relative pl-14">
+                <div className="relative pl-14 pb-10">
                     <AnimatedContent
                         distance={50}
                         direction="horizontal"
@@ -162,6 +162,44 @@ export default function MobileExperience() {
                     </AnimatedContent>
                     <div className="absolute left-0 mt-[8px] top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
                         4
+                    </div>
+                </div>
+
+                {/* Item 5 */}
+                <div className="relative pl-14">
+                    <AnimatedContent
+                        distance={50}
+                        direction="horizontal"
+                        config={{ tension: 80, friction: 20 }}
+                        initialOpacity={0.2}
+                        animateOpacity
+                        threshold={0.1}
+                    >
+                        <div className="p-[1px] rounded-2xl bg-gradient-to-r from-purple-500 to-cyan-500">
+                            <div className="flex flex-col  justify-around ">
+                                <div className="p-5 rounded-2xl bg-[#2d2b45]">
+                                    <div className="flex gap-3 ms-6 mb-3 items-center">
+                                        <div className="rounded-full w-10 h-10 bg-gradient-to-br from-purple-500 to-cyan-500 flex items-center justify-center text-white font-bold text-xs mr-2">AI</div>
+                                        <div className='text-xs'>
+                                            <p className="text-white font-semibold">AI-Native Developer</p>
+                                            <p className="text-gray-500 ">Lovable.dev, Cursor, Replit</p>
+                                            <p className="text-gray-500 ">Jan 2024 - Present</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <ul className="text-white/60 text-xs list-disc custom-bullets mb-2">
+                                            <li className="mb-1">Developed web applications using AI-powered development tools including Cursor, Augment Code, Claude Code, Lovable.dev, and Replit.</li>
+                                            <li className="mb-1">Leveraged AI assistance for rapid prototyping, code generation, and application development.</li>
+                                            <li className="mb-1">Built multiple full-stack applications on Lovable.dev platform, showcasing proficiency in AI-assisted development workflows.</li>
+                                            <li className="mb-1">Collaborated with AI coding assistants to optimize development speed and code quality while maintaining best practices.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </AnimatedContent>
+                    <div className="absolute left-0 mt-[8px] top-4 w-10 h-10 rounded-full bg-gradient-to-b from-purple-500 to-cyan-500 flex items-center justify-center font-semibold">
+                        5
                     </div>
                 </div>
             </div>

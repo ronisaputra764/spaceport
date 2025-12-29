@@ -154,5 +154,90 @@ export const recentProject = [
             "Fast & Smooth UX: Minimalist design with fast fetch-and-render using React hooks.",
         ],
         description: "This project is a sleek and responsive web application that allows users to search and view IMDb ratings for movies using a real-time API. Built with a modern front-end stack, the platform provides a clean user interface to search for any movie title and instantly view its IMDb rating, release year, and brief details."
+    },
+    {
+        id: "10",
+        title: "Patent AI Alchemy",
+        image: "patent-ai-alchemy.png",
+        github: "",
+        vercel: "https://patent-ai-alchemy.lovable.app",
+        techstack: [
+            "Lovable.dev", "React", "AI-Powered", "Modern Web"
+        ],
+        features: [
+            "AI-Powered Development: Built using Lovable.dev AI-native development platform.",
+            "Modern Web Interface: Clean and intuitive user interface with responsive design.",
+            "Full-Stack Application: Complete web application developed with AI assistance.",
+            "Rapid Prototyping: Leveraged AI tools for fast and efficient development workflow."
+        ],
+        description: "An innovative web application built on Lovable.dev platform, showcasing AI-native development capabilities. This project demonstrates proficiency in using AI-powered development tools to create modern, full-stack web applications efficiently and effectively."
+    },
+    {
+        id: "11",
+        title: "Bright Spot Bot",
+        image: "bright-spot-bot.png",
+        github: "",
+        vercel: "https://bright-spot-bot.lovable.app",
+        techstack: [
+            "Lovable.dev", "React", "AI-Powered", "Modern Web"
+        ],
+        features: [
+            "AI-Powered Development: Built using Lovable.dev AI-native development platform.",
+            "NDIS Incident Management: Secure incident management system for support workers.",
+            "User Authentication: Secure login and signup system with role-based access.",
+            "Modern UI/UX: Clean and professional interface designed for ease of use."
+        ],
+        description: "A comprehensive NDIS incident management platform built on Lovable.dev. This AI-powered application provides secure access for support workers to manage and track incidents efficiently, demonstrating advanced AI-native development capabilities in creating specialized healthcare management solutions."
+    },
+    {
+        id: "12",
+        title: "Appcelerator Solutions",
+        image: "appcelerator-solutions.png",
+        github: "",
+        vercel: "https://appcelerator-solutions.lovable.app",
+        techstack: [
+            "Lovable.dev", "React", "AI-Powered", "Modern Web"
+        ],
+        features: [
+            "AI-Powered Development: Built using Lovable.dev AI-native development platform.",
+            "Property Inspection Management: Streamline property search and inspection scheduling.",
+            "Dashboard Interface: Comprehensive dashboard for managing property inspections.",
+            "Australian Market Focus: Tailored for property seekers across Australia."
+        ],
+        description: "A property inspection management platform developed on Lovable.dev. This AI-native application helps users streamline their property search in Australia by scheduling, organizing, and managing property inspections efficiently through an intuitive dashboard interface."
+    },
+    {
+        id: "13",
+        title: "Brandable Bazaar",
+        image: "brandable-bazaar.png",
+        github: "",
+        vercel: "https://brandable-bazaar.lovable.app",
+        techstack: [
+            "Lovable.dev", "React", "AI-Powered", "Modern Web"
+        ],
+        features: [
+            "AI-Powered Development: Built using Lovable.dev AI-native development platform.",
+            "IP Marketplace: Premier marketplace for trademarks, domains, and products.",
+            "Verified Legal Ownership: Secure platform with verified legal ownership transfers.",
+            "Search & Discovery: Advanced search functionality for trademarks, domains, and products."
+        ],
+        description: "The Premier IP Marketplace built on Lovable.dev platform. This AI-powered application provides a comprehensive marketplace for discovering and acquiring trademarks, domains, and trademarked products with verified legal ownership and seamless transfers, showcasing expertise in creating complex e-commerce platforms."
+    },
+    {
+        id: "14",
+        title: "Patentastic Fashion Lab",
+        image: "patentastic-fashion-lab.png",
+        github: "",
+        vercel: "https://patentastic-fashion-lab.lovable.app",
+        techstack: [
+            "Lovable.dev", "React", "AI-Powered", "Modern Web"
+        ],
+        features: [
+            "AI-Powered Development: Built using Lovable.dev AI-native development platform.",
+            "Fashion Design Platform: AI-powered fashion design and innovation tools.",
+            "Interactive 3D Preview: Advanced 3D design preview capabilities.",
+            "Patent Integration: All-in-one platform for patenting and monetizing creative ideas."
+        ],
+        description: "An innovative fashion design and patenting platform built on Lovable.dev. This AI-native application combines patent management with fashion design tools, featuring interactive 3D design previews and comprehensive intellectual property protection, demonstrating advanced capabilities in AI-powered creative tools."
     }
 ];

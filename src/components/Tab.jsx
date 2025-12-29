@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { IoCodeSharp } from "react-icons/io5";
 import { PiMedal } from "react-icons/pi";
 import { RiStackLine } from "react-icons/ri";
+import { FaRobot } from "react-icons/fa";
 
 const tabs = [
     {
@@ -18,6 +19,11 @@ const tabs = [
         id: 2,
         icon: <RiStackLine />,
         title: "Tech Stack"
+    },
+    {
+        id: 3,
+        icon: <FaRobot />,
+        title: "AI Development"
     },
 ];
 

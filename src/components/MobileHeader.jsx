@@ -103,7 +103,7 @@ export default function MobileHeader() {
                 >
                     <p className="text-[#c3c3c3] mx-3 text-sm transition-all duration-700">
                         I'm a web developer specializing in creating dynamic and user-friendly websites.
-                        I have experience in front-end and back-end development.
+                        I have experience in front-end and back-end development, and AI-native development using tools like Cursor, Augment Code, Claude Code, Lovable.dev, and Replit.
                     </p>
                 </AnimatedContent>
 
@@ -140,7 +140,6 @@ export default function MobileHeader() {
                 >
                     <div className="flex flex-col sm:flex-row  gap-4 mt-6 px-3">
                         <GradientButton text="Download CV" href="CV_Roni_Saputra.pdf" />
-                        <GradientButton text="Send Me Email" href="mailto:ronisaputra764@gmail.com?" />
                     </div>
                 </AnimatedContent>
             </div>

@@ -59,7 +59,7 @@ export default function DesktopHeader() {
                     >
                         <p className="ms-4 text-[#c3c3c3] text-xs sm:text-base mt-2 transition-all duration-700">I'm a web developer specializing in creating dynamic and user-friendly websites.
                             I have experience in front-end and back-end development, along with a passion
-                            for crafting intuitive user interfaces and efficient code
+                            for crafting intuitive user interfaces and efficient code. I'm also experienced in AI-native development using tools like Cursor, Augment Code, Claude Code, Lovable.dev, and Replit.
                         </p>
                     </AnimatedContent>
 
@@ -110,18 +110,6 @@ export default function DesktopHeader() {
                                     <a href="CV_Roni_Saputra.pdf" download="CV_Roni_Saputra.pdf" title="Get quote now" target="_blank"
                                         className="relative text-nowrap inline-flex items-center justify-center px-8 py-4 text-md font-semibold text-white transition-all duration-100 bg-[#030014] font-pj rounded-xl focus:outline-none "
                                         role="button">Download CV
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="bg-black inline">
-                                <div className="relative inline-flex group">
-                                    <div
-                                        className="absolute transitiona-all duration-200 opacity-70 -inset-px bg-gradient-to-r from-cyan-500 via-purple-500 to-[#FF44EC]  rounded-xl blur-md group-hover:opacity-100 group-hover:-inset-1 animate-tilt">
-                                    </div>
-                                    <a href="mailto:ronisaputra764@gmail.com?" title="Get quote now"
-                                        className="relative text-nowrap  inline-flex items-center justify-center px-8 py-4 text-md font-semibold text-white transition-all duration-100 bg-[#030014] font-pj rounded-xl focus:outline-none "
-                                        role="button">Send Me Email
                                     </a>
                                 </div>
                             </div>
